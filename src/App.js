@@ -1,7 +1,11 @@
 
 import './App.css';
 import {useState} from 'react';
-import Form from './component/Form';
+
+import Work from './component/Work';
+import Personal from './component/Personal';
+import Education from './component/Education';
+import Skills from './component/Skills';
 
 function App() {
 
@@ -43,8 +47,13 @@ function App() {
       <br />
 
       <h1> second part with full form using submit button</h1>
-      <Form />
-
+      <Personal />
+      <br/>
+      <Work />
+      <br />
+      <Education />
+      <br />
+      <Skills/>
     </div>
   );
 }

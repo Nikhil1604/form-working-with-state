@@ -1,7 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 
-const Form = () => {
+const Personal = () => {
+
+    // using use state to set value to variable on any 
+    // kind of change in input values
     const [fname,setfname]=useState('');
     const [lname,setlname]=useState('');
     const [mobile,setmobile]=useState('');
@@ -12,7 +15,7 @@ const Form = () => {
     return (
     <div>
     
-
+va
         <input name="fname"
             id="fname"
             placeholder="First Name"
@@ -83,4 +86,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default Personal
